@@ -1,0 +1,19 @@
+{
+  "name": "draggable",
+  "version": "0.0.1",
+  "authors": [
+    "xu.shenxin@gmail.com"
+  ],
+  "description": "jQuery ajax drop file upload plugin",
+  "main": "drappable.js",
+  "keywords": [
+    "drag",
+    "drop",
+    "jQuery"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.0"
+  }
+}
