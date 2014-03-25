@@ -6,7 +6,7 @@
 	<title>Draggable</title>
 	<link rel="stylesheet" href="style.css">
 	<script src="bower_components/jquery/dist/jquery.js"></script>
-	<script src="draggable.js"></script>
+	<script src="dropUpload.js"></script>
 </head>
 <body>
 
@@ -16,6 +16,8 @@
 <div draggable="true" ondragstart="event.dataTransfer.setData('text/plain', 'This text may be dragged~~~~~~~~')">
   This text <strong>may</strong> be dragged.
 </div>
+
+<div class="file-receiver" data-api="plugin-dropUpload"></div>
 
 </body>
 </html>
